@@ -1,0 +1,23 @@
+Dataset,Regressor,Mean Test Score (MAE),Execution Time (s),Best Parameters,Best Estimator
+Original,Linear Regression,6631053980.019236,4.261161804199219,{},LinearRegression()
+Original,Lasso,1.0793841569551486,2.8841066360473633,{'alpha': 0.01},Lasso(alpha=0.01)
+Original,Ridge,1.1764080240167192,0.5954830646514893,{'alpha': 10.0},Ridge(alpha=10.0)
+Original,SVR,1.1519478210229048,1004.771223783493,"{'C': 100.0, 'degree': 2, 'epsilon': 0.2, 'gamma': 'scale', 'kernel': 'rbf'}","SVR(C=100.0, degree=2, epsilon=0.2)"
+Original,Random Forest,1.3963348999999998,47.68402361869812,"{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}","RandomForestRegressor(max_features='sqrt', random_state=14)"
+Original,Gradient Boosting,1.3564505117576964,32.617685079574585,"{'learning_rate': 0.1, 'max_depth': 7, 'max_features': 'sqrt', 'min_samples_leaf': 4, 'min_samples_split': 10, 'n_estimators': 300}","GradientBoostingRegressor(max_depth=7, max_features='sqrt', min_samples_leaf=4,
+                          min_samples_split=10, n_estimators=300,
+                          random_state=14)"
+Original,Decision Tree,1.544291376174055,1.2099628448486328,"{'max_depth': 3, 'max_features': 'log2', 'min_samples_leaf': 5, 'min_samples_split': 2}","DecisionTreeRegressor(max_depth=3, max_features='log2', min_samples_leaf=5,
+                      random_state=14)"
+Original,KNN,1.361604426553492,80.01724886894226,"{'algorithm': 'auto', 'leaf_size': 30, 'metric': 'euclidean', 'n_neighbors': 10, 'p': 1, 'weights': 'distance'}","KNeighborsRegressor(metric='euclidean', n_neighbors=10, p=1, weights='distance')"
+Original,XGBoost,1.2060891982337318,405.4472141265869,"{'colsample_bytree': 1.0, 'gamma': 0, 'learning_rate': 0.1, 'max_depth': 7, 'min_child_weight': 5, 'n_estimators': 200, 'subsample': 0.8}","XGBRegressor(base_score=None, booster=None, callbacks=None,
+             colsample_bylevel=None, colsample_bynode=None,
+             colsample_bytree=1.0, device=None, early_stopping_rounds=None,
+             enable_categorical=False, eval_metric=None, feature_types=None,
+             gamma=0, grow_policy=None, importance_type=None,
+             interaction_constraints=None, learning_rate=0.1, max_bin=None,
+             max_cat_threshold=None, max_cat_to_onehot=None,
+             max_delta_step=None, max_depth=7, max_leaves=None,
+             min_child_weight=5, missing=nan, monotone_constraints=None,
+             multi_strategy=None, n_estimators=200, n_jobs=None,
+             num_parallel_tree=None, random_state=14, ...)"
